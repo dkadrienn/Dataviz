@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Simple Bar chart</title>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            font-style: oblique;
+            font-weight: bold;
+        }
+        
+        .bar {
+            fill: steelblue;
+        }
+        
+        .axis {
+            font-size: 13px;
+        }
+        
+        .axis path,
+        .axis line {
+            fill: none;
+            display: none;
+        }
+        
+        .label {
+            font-size: 13px;
+        }
+        #graphic {
+            display: auto;
+        }
+        #cim{
+            margin-left: 20%;
+        }
+
+        #vissza{
+            float: right;
+            margin-right: 40%;
+            margin-top: 42%;
+            background-color: steelblue;
+            border-radius: 3px;
+            padding: 8px;
+            color: white;
+            border: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="cim"><h2>Top települések</h2></div>
+    <div id="toploc">
+        <script src="topLocations.js"></script>
+        <button onclick="location.href='tops.html'" type="button" id="vissza">Vissza</button>  
+    </div>       
+</body>
+
+</html>

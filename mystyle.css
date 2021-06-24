@@ -1,0 +1,32 @@
+body{
+  background-color: white;
+}
+
+#my_datavizFalu{
+  margin-right: 10%;
+  float: right;
+}
+
+#my_datavizVaros{
+  margin-left: 10%;
+  float: left;
+}
+
+.tooltip{
+  background-color: steelblue;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 5px;
+  z-index: 2;
+  color: white;
+}
+#cim1, #cim2{
+  padding-left: 120px;
+  padding-top: 50px;
+  color: black;
+}
+
+#cim{
+  margin: auto;
+  width: 0%;
+}
